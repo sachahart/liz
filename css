@@ -1,0 +1,116 @@
+
+
+#navigation {
+        font-family: josefin sans, helvetica;
+    overflow: inherit;
+    text-align: left !important;
+    margin: 0px 0px 25px 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: fixed;
+    top: -3px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+        border-bottom: 1px solid #ddd;
+    background: #8FC7B2 ;
+}
+.column-1,
+.column-2,
+.column-3 {
+margin-left: 50px;
+margin-right: 50px;
+}
+.column-1 a {
+padding-left: 20px;
+padding-right: 20px;
+font-size: 11px;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: #fff;
+}
+.column-2 a {
+padding-left: 20px;
+padding-right: 20px;
+font-size: 11px;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: #fff;
+}
+#navigation ul {
+height: 40px;
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+#navigation li {
+float: none;
+display: inline-block;
+padding: 0px;
+}
+#navigation li a {
+display: block;
+margin: 0px;
+text-align: center;
+text-decoration: none;
+padding-left: 0px;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+#navigation > ul > li > a {
+color: #fff;
+}
+#navigation ul ul a {
+color: #fff;
+}
+#navigation li > a:hover, #navigation ul li:hover {
+color: #000;
+text-decoration: none;
+}
+#navigation li ul {
+background: transparent;
+font-size: 11px;
+display: none;
+height: auto;
+padding: 6px 10px 7px 10px;
+min-width: 160px;
+margin-left: -15px;
+position: absolute;
+width: 100px;
+z-index: 9999;
+}
+#navigation li:hover ul {
+display: block;
+}
+#navigation li li {
+background: #fff;
+border: 0;
+display: block;
+float: none;
+margin: 0px;
+padding: 0px;
+width: 120px;
+}
+#navigation li:hover li a {
+color: #fff;
+background: #88B5A4;
+}
+#navigation li ul a {
+display: block;
+font-size: 10px;
+height: auto;
+margin-left: -10px;
+padding: 6px 10px 7px 10px;
+text-align: center;
+}
+#navigation li ul a:hover, #navigation li ul li:hover > a {
+color: #000;
+background-color: #f5f5f5;
+border: 0px;
+text-decoration: none;
+}
+
+/* The Design Project by Sacha Hart */
